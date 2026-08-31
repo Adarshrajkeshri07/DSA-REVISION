@@ -37,4 +37,18 @@ int main(){
      int ans = single(a,n); 
     cout << ans  ;
     return 0 ; 
-}
+} 
+
+// method 2nd using XOR .  O(n) timecomplexity ............ when each elements are twice except one .
+
+// #include <iostream>
+
+// using namespace std;
+// int main(){
+//     int a[9] = {1, 1, 2, 3, 3, 4, 4, 8, 8};
+//     int single = 0 ; 
+//     for(int i = 0 ; i < 9 ; i++){
+//         single ^= a[i] ; 
+//     }
+//     cout << single ;
+// }
