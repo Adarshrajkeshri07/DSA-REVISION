@@ -7,7 +7,7 @@ int main(){
      cout << " enter full strings : " ; 
      cin >> s ; 
      cout << " enter the part " ; 
-    cin >> part ; 
+    getline(cin ,part) ;   
     while (s.length() > 0 && s.find(part) < s.length())
     {
         int pos = s.find(part) ; 
